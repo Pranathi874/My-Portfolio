@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Pranathi Kota | Web Developer</title>
+    
+    <meta name="description" content="Portfolio of Sai Pranathi Kota, a passionate web developer specializing in building dynamic and effective web applications.">
+    <meta name="keywords" content="Sai Pranathi Kota, web developer, portfolio, python, html, css, javascript">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <a href="#home" class="logo">SPK</a>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="hamburger-btn" aria-label="Open navigation menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <canvas id="particle-canvas"></canvas>
+            <div class="hero-content">
+                <h1 id="hero-headline" class="hero-text"></h1>
+                <h2 data-speed="1" class="hero-text">I'm a <span id="typing-text">Web Developer</span></h2>
+                <p data-speed="2" class="hero-text">
+                    Driven web developer, passionate about creating seamless, responsive, and user-centric digital experiences. With a strong foundation in JavaScript, Python, and modern web technologies, I’m eager to apply my skills and quickly adapt to real-world development challenges..
+                </p>
+                <div class="hero-buttons" data-speed="-1">
+                    <a href="KOTA_SAI_PRANATHI_RESUME.pdf" class="btn btn-secondary" download>Download Resume</a>
+                    <a href="#projects" class="btn btn-primary">View My Projects</a>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll down">
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+        </section>
+
+        <section id="about" class="container section">
+            <h2 class="section-title hidden">About Me</h2>
+            <div class="about-content">
+                <div class="about-image hidden">
+                    <img src="profile.jpg" alt="Sai Pranathi Kota">
+                </div>
+                <div class="about-text hidden">
+                    <h3>Web Developer & Tech Enthusiast</h3>
+                    <p>
+                        I am a passionate Web Developer specializing in building dynamic and user-friendly applications with JavaScript and Python. My enthusiasm lies in transforming complex problems into elegant, efficient code. As a fresher, I am eager to bring my skills to a collaborative team, contribute to impactful projects, and continuously expand my technical horizons.
+                    </p>
+                    <div class="about-info">
+                        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:saipranathikota@gmail.com">saipranathikota@gmail.com</a></p>
+                        <p><i class="fa-solid fa-phone"></i> <a href="tel:+917993557317">+91 79935 57317</a></p>
+                        <p><i class="fa-solid fa-location-dot"></i> Hyderabad, Telangana</p>
+                    </div>
+                    <div class="about-socials">
+                        <a href="https://github.com/Pranathi874" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                        <a href="http://www.linkedin.com/in/sai-pranathi-kota-2a5602329" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="container section">
+    <h2 class="section-title hidden">My Skills</h2>
+    <div class="skills-container">
+
+        <div class="skill-category hidden">
+            <h3>Frontend Development</h3>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+                <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+                <div class="skill-card"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+            </div>
+        </div>
+
+        <div class="skill-category hidden">
+            <h3>Backend Development</h3>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+                <div class="skill-card"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                <div class="skill-card"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+            </div>
+        </div>
+
+        <div class="skill-category hidden">
+            <h3>Tools & Technologies</h3>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+                
+                <div class="skill-card"><i class="fa-brands fa-figma"></i><span>Figma</span></div>
+            </div>
+        </div>
+
+        <div class="skill-category hidden">
+            <h3>Professional Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fa-solid fa-lightbulb"></i><span>Problem-Solving</span></div>
+                <div class="skill-card"><i class="fa-solid fa-users"></i><span>Collaboration</span></div>
+                <div class="skill-card"><i class="fa-solid fa-comments"></i><span>Communication</span></div>
+                <div class="skill-card"><i class="fa-solid fa-shuffle"></i><span>Adaptability</span></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <section id="projects" class="container section">
+            <h2 class="section-title hidden">My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card hidden">
+                    <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzEyNjZ8MHwxfGFsbHwxfHx8fHx8fHwxNzIyMDI5OTU1fA&ixlib=rb-4.0.3&q=80&w=1080');"></div>
+                    <div class="project-content">
+                        <h3>E-Commerce Websites</h3>
+                        <p>A modern, fully responsive website for a fictional company, demonstrating strong HTML and CSS skills for all device sizes.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Pranathi874/E-Commerce-Website" target="_blank">Code <i class="fab fa-github"></i></a>
+                            <a href="https://pranathi874.github.io/E-Commerce-Website/" target="_blank">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card hidden">
+                    <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1625246333195-78d9c38ad449?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzEyNjZ8MHwxfGFsbHwxfHx8fHx8fHwxNzIyMDI5ODUxfA&ixlib=rb-4.0.3&q=80&w=1080');"></div>
+                    <div class="project-content">
+                        <h3>Integrated Crop Protection and Management</h3>
+                        <p>A web platform providing farmers with advanced solutions and data for effective crop protection and pest management.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Pranathi874/Integrated-Crop-Protection-and-Management-" target="_blank">Code <i class="fab fa-github"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card hidden">
+                    <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1544256718-3bcf237f3974?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzEyNjZ8MHwxfGFsbHwxfHx8fHx8fHwxNzA4NjEwMDIzfA&ixlib=rb-4.0.3&q=80&w=1080');"></div>
+                    <div class="project-content">
+                        <h3>To-Do List App</h3>
+                        <p>A classic to-do list built to demonstrate fundamental DOM manipulation skills with vanilla JavaScript.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Pranathi874/Todo-List" target="_blank">Code <i class="fab fa-github"></i></a>
+                            <a href="https://pranathi874.github.io/Todo-List/" target="_blank">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card hidden">
+                     <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1502691876148-a84978e59af8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzEyNjZ8MHwxfGFsbHwxfHx8fHx8fHwxNzIyMDMwMTEyfA&ixlib=rb-4.0.3&q=80&w=1080');"></div>
+                    <div class="project-content">
+                        <h3>Color Flipper</h3>
+                        <p>A simple tool that generates random background colors, showcasing event handling in JavaScript.</p>
+                         <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Pranathi874/Color-Flipper" target="_blank">Code <i class="fab fa-github"></i></a>
+                            <a href="https://pranathi874.github.io/Color-Flipper/" target="_blank">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card hidden">
+                     <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1587620962725-abab7fe55159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzEyNjZ8MHwxfGFsbHwxfHx8fHx8fHwxNzA4NjEwMTM3fA&ixlib=rb-4.0.3&q=80&w=1080');"></div>
+                    <div class="project-content">
+                        <h3>Basic Calculator</h3>
+                        <p>A functional calculator built with CSS Grid for layout and JavaScript for handling all the logic and calculations.</p>
+                         <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Pranathi874/simple-calculator" target="_blank">Code <i class="fab fa-github"></i></a>
+                            <a href="https://pranathi874.github.io/simple-calculator/" target="_blank">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container section">
+            <div class="contact-container hidden">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-subtitle">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out in the way that's most convenient for you.</p>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                        <h3>Email</h3>
+                        <p>saipranathikota@gmail.com</p>
+                        <a href="mailto:saipranathikota@gmail.com" class="contact-link">Send a message</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                        <h3>Phone</h3>
+                        <p>+91 79935 57317</p>
+                        <a href="tel:+917993557317" class="contact-link">Call me</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fa-brands fa-linkedin"></i></div>
+                        <h3>Socials</h3>
+                        <p>Connect with me online.</p>
+                        <div class="contact-card-socials">
+                            <a href="https://github.com/Pranathi874" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                            <a href="http://www.linkedin.com/in/sai-pranathi-kota-2a5602329" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sai Pranathi Kota. Built with passion and code.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
